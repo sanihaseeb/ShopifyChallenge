@@ -2,7 +2,7 @@
 
 ### Note: There are two separate directories: front-end and back-end which must be ran separately. 
 ### Note: Back-end must run before front-end
-### Please download .env file (even for replit) for proper execution.
+### Note: Please download .env file and add it to back-end/ (even for replit) for proper execution.
 
  
 ## Inventory Tracker
