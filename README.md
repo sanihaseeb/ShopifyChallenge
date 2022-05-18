@@ -12,7 +12,7 @@
   - Undeleting previously deleted inventory items - maintaining a 'recycle bin' 
 
 
-## HOW TO RUN
+## How To Run
 -   Clone the repo
 -   cd back-end
 -   **Kindly download .env file and place it in the root/src directory before running the app [I removed it to not show sensitive information]. You can download it from here: [env](https://drive.google.com/drive/folders/1qsTvZjG3ugx8yY8oAbLX50wIGKWj9LyC?usp=sharing)**
@@ -24,6 +24,8 @@
 -   Test remaining APIs on Postman 
 
 ## Endpoints with results</h1>
+
+### ADD NEW ITEM
 ```
 POST: http://localhost:{port}/items
 body: 
@@ -39,7 +41,7 @@ RESPONSE:
 }
 
 ```
-
+### GET ITEMS
 ```
 GET: http://localhost:8000/items
 
@@ -56,7 +58,7 @@ RESPONSE:
 ]
 
 ```
-
+### GET ITEM BY ID
 ```
 GET: http://localhost:8000/items/62849f5abe0a82fb7b6bb9c8
 
@@ -71,6 +73,7 @@ RESPONSE:
 }
 
 ```
+### EDIT ITEM BY ID
 
 ```
 PUT: http://localhost:8000/items/62849f5abe0a82fb7b6bb9c8
@@ -86,7 +89,7 @@ RESPONSE:
     "message": "Item updated!"
 }
 ```
-
+### GET ITEM BY ID (check update)
 ```
 GET: http://localhost:8000/items/62849f5abe0a82fb7b6bb9c8
 
@@ -99,7 +102,7 @@ RESPONSE:
 }
 
 ```
-
+### DELETE ITEM BY ID
 ```
 DELETE: http://localhost:8000/items/62849f5abe0a82fb7b6bb9c8
 
@@ -112,7 +115,7 @@ RESPONSE:
 }
 ```
 
-
+### GET ALL ITEMS (check if deleted item exists anymore)
 ```
 GET: http://localhost:8000/items
 
@@ -120,7 +123,7 @@ RESPONSE:
 []
 
 ```
-
+### GET DELETED ITEMS (i.e. recycle bin to give option of reverting deletion)
 ```
 
 GET: http://localhost:8000/deleted-items
