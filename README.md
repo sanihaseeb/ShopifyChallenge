@@ -11,9 +11,10 @@
   - Viewing List of Existing Inventory Items
   - Undeleting previously deleted inventory items - maintaining a 'recycle bin' 
 
+# BACK-END
 
 ## How To Run
--   Clone the repo
+-   Clone the repository
 -   cd back-end
 -   **Kindly download .env file and place it in the root/src directory before running the app [I removed it to not show sensitive information]. You can download it from here: [env](https://drive.google.com/drive/folders/1qsTvZjG3ugx8yY8oAbLX50wIGKWj9LyC?usp=sharing)**
 -   run the command `npm install`
@@ -162,6 +163,12 @@ RESPONSE:
 ]]
 
 ```
+
+# FRONT-END
+
+-   cd front-end
+-   run npm install
+-   run npm start
 
 
 
