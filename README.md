@@ -1,8 +1,8 @@
 # ShopifyChallenge
 
 ### Note: There are two separate directories: front-end and back-end which must be ran separately. 
-### Note: Back-end must run before front-end (Kindly run the front-end in the replit shell as the complete .replit command fails to start the front-end because it terminates after starting the back-end)
-### Note: Although I have set it as a replit secret, please download .env file from link provided below and add it to back-end/ for execution if trouble is faced regarding mongoose connection string. [If not already accessible on replit]
+### Note: Back-end must run before front-end (Kindly run the front-end separately (in the shell) as the complete .replit command fails to start the front-end because it terminates after starting the back-end)
+### Note: Although I have set it as a replit secret, kindly download .env file from link provided below and add it to back-end/ for execution if trouble is faced regarding mongoose connection string. [If not already accessible on replit]
 
 
  
