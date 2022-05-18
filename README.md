@@ -1,6 +1,9 @@
 # ShopifyChallenge
 
-### Please download .env file for proper execution.
+### Note: There are two separate directories: front-end and back-end which must be ran separately. 
+### Note: Back-end must run before front-end
+### Please download .env file (even for replit) for proper execution.
+
  
 ## Inventory Tracker
 
