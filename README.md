@@ -1,6 +1,10 @@
 # ShopifyChallenge
 
-### Please download .env file for proper execution.
+### Note: There are two separate directories: front-end and back-end which must be ran separately. 
+### Note: Back-end must run before front-end (Kindly run the front-end separately (in the shell) as the complete .replit command fails to start the front-end because it terminates after starting the back-end)
+### Note: Although I have set it as a replit secret, kindly download .env file from link provided below and add it to back-end/ for execution if trouble is faced regarding mongoose connection string. [If not already accessible on replit]
+
+
  
 ## Inventory Tracker
 
@@ -16,7 +20,7 @@
 ## How To Run
 -   Clone the repository
 -   cd back-end
--   **Kindly download .env file and place it in the back-end's root directory (i.e. back-end/) before running the app. You can download it from here: [.env](https://drive.google.com/drive/folders/1aNHwIVWKxvnTJVO8H7H3HPkptuajlPdD?usp=sharing)**
+-   **Kindly download .env file and place it in the back-end's root directory (i.e. back-end/) before running the app. You can download it from here: [.env](https://drive.google.com/drive/folders/1aNHwIVWKxvnTJVO8H7H3HPkptuajlPdD?usp=sharing)** (Should already be there on replit as secret, this is just in case)
 -   run the command `npm install`
 -   run the command `npm run dev`
 -   Wait until the application says `Connected to DB` and displays the active port.
