@@ -15,7 +15,7 @@ require("dotenv").config();
 
 // connect to mongodb
 const dbURI = process.env.ATLAS_CONNECTION
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8000;
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
         console.log(('Connected to DB'));
@@ -32,9 +32,8 @@ app.use(
 app.use(cors());
 app.use(express.json());
 
-// Basic front-end only for adding inventory items
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/index.html')
+    res.send("Welcome to our Inventory Tracking App")
 })
 
 app.use("/items", addItem);
