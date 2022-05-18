@@ -4,7 +4,7 @@
  
 ## Inventory Tracker
 
-- In this challenge, I developed an inventory tracker focused on back-end implementation with the following features:
+ In this challenge, we develop an inventory tracker focused on back-end implementation with the following features:
   - Creating Inventory Items
   - Editing Existing Inventory Items
   - Deleting Existing Inventory Items with comments
@@ -16,7 +16,7 @@
 ## How To Run
 -   Clone the repository
 -   cd back-end
--   **Kindly download .env file and place it in the root/src directory before running the app [I removed it to not show sensitive information]. You can download it from here: [env](https://drive.google.com/drive/folders/1qsTvZjG3ugx8yY8oAbLX50wIGKWj9LyC?usp=sharing)**
+-   **Kindly download .env file and place it in the root/src directory before running the app. You can download it from here: [env](https://drive.google.com/drive/folders/1aNHwIVWKxvnTJVO8H7H3HPkptuajlPdD?usp=sharing)]**
 -   run the command `npm install`
 -   run the command `npm run dev`
 -   Wait until the application says `Connected to DB` and displays the active port.
@@ -211,6 +211,7 @@ RESPONSE:
 -   JavaScript Programming Language
 -   MongoDB
 -   Express
+-   MaterialUI
 
 ## Improvements 
 -   Need to write tests
