@@ -8,6 +8,7 @@ router.delete("/:id", async (req, res) => {
     console.log(itemToBeDeleted);
     Item.findByIdAndRemove(req.params.id)
         .then(async (result) => {
+            // Add to deleted items to maintain record for undeletion
             try {
                 const deletedItem = new DeletedItem({
                     previousId: itemToBeDeleted._id,
