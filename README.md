@@ -1,8 +1,8 @@
 # ShopifyChallenge
 
 ### Note: There are two separate directories: front-end and back-end which must be ran separately. 
-### Note: Back-end must run before front-end (I would recommend running the front-end in the replit shell as the complete .replit command fails to start the front-end because it terminates after starting the back-end)
-### Note: Please download .env file and add it to back-end/ (even for replit) for proper execution.
+### Note: Back-end must run before front-end (Kindly run the front-end in the replit shell as the complete .replit command fails to start the front-end because it terminates after starting the back-end)
+### Note: Please download .env file from link provided below and add it to back-end/ (even for replit) for proper execution. [If not on already accessible on replit]
 
 
  
