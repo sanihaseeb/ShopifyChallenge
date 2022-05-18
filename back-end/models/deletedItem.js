@@ -1,6 +1,11 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const deletedItemSchema = new Schema({
+
+    previousId: {
+        type: String,
+        required: true
+    },
     name: {
         type: String,
         required: true
@@ -11,10 +16,20 @@ const deletedItemSchema = new Schema({
         required: true
     },
 
-    price: {
+    quantity: {
         type: Number,
         required: true
     },
+
+    pricePerPiece: {
+        type: Number,
+        required: true
+    },
+
+    comment: {
+        type: String,
+        required: false
+    }
 
 }
 );

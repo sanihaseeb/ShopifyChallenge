@@ -11,7 +11,12 @@ const itemSchema = new Schema({
         required: true
     },
 
-    price: {
+    quantity: {
+        type: Number,
+        required: true
+    },
+
+    pricePerPiece: {
         type: Number,
         required: true
     },
