@@ -16,7 +16,7 @@
 ## How To Run
 -   Clone the repository
 -   cd back-end
--   **Kindly download .env file and place it in the back-end's root directory (i.e. back-end/) before running the app. You can download it from here: [env](https://drive.google.com/drive/folders/1aNHwIVWKxvnTJVO8H7H3HPkptuajlPdD?usp=sharing)**
+-   **Kindly download .env file and place it in the back-end's root directory (i.e. back-end/) before running the app. You can download it from here: [.env](https://drive.google.com/drive/folders/1aNHwIVWKxvnTJVO8H7H3HPkptuajlPdD?usp=sharing)**
 -   run the command `npm install`
 -   run the command `npm run dev`
 -   Wait until the application says `Connected to DB` and displays the active port.
