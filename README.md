@@ -9,7 +9,7 @@
   - Editing Existing Inventory Items
   - Deleting Existing Inventory Items with comments
   - Viewing List of Existing Inventory Items
-  - Undeleting previously deleted inventory items - maintaining a 'trash' 
+  - Undeleting previously deleted inventory items - maintaining a 'recycle bin' 
 
 
 ## HOW TO RUN
