@@ -1,6 +1,6 @@
 # ShopifyChallenge
 
-## NOTE: Please download .env file for proper execution.
+### Please download .env file for proper execution.
  
 ## Inventory Tracker
 
@@ -15,7 +15,7 @@
 ## HOW TO RUN
 -   Clone the repo
 -   cd back-end
--   ** Kindly download .env file and place it in the root/src directory before running the app [I removed it to not show sensitive information]. You can download it from here: [env](https://drive.google.com/drive/folders/1qsTvZjG3ugx8yY8oAbLX50wIGKWj9LyC?usp=sharing) **
+-   **Kindly download .env file and place it in the root/src directory before running the app [I removed it to not show sensitive information]. You can download it from here: [env](https://drive.google.com/drive/folders/1qsTvZjG3ugx8yY8oAbLX50wIGKWj9LyC?usp=sharing)**
 -   run the command `npm install`
 -   run the command `npm run dev`
 -   Wait until the application says `Connected to DB` and displays the active port.
